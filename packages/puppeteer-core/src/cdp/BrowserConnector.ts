@@ -95,6 +95,12 @@ export async function _connectToBiDiOverCdpBrowser(
 
   const connection = await getCdpConnection(options);
 
+  if (options.tag) {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-expect-error
+    await connection.send('ChromeCraft.getVersion', [options.tag]);
+  }
+
   const version = await connection.send('Browser.getVersion');
   if (version.product.toLowerCase().includes('firefox')) {
     throw new UnsupportedOperation(

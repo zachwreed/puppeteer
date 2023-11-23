@@ -25,6 +25,7 @@ generated/
 !.vscode/extensions.json
 !.vscode/*.template.json
 .devcontainer
+.idea
 
 # Misc
 .DS_Store

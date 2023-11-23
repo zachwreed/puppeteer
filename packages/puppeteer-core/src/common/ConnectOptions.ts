@@ -81,4 +81,10 @@ export interface ConnectOptions extends BrowserConnectOptions {
    * Only works in the Node.js environment.
    */
   headers?: Record<string, string>;
+  /**
+   * Tag for using a specific browser for the connection
+   * @remarks
+   * Only works with Chrome Craft
+   */
+  tag?: string;
 }
