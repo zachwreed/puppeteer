@@ -16,7 +16,7 @@
 
 import type {Readable} from 'stream';
 
-import type {Protocol} from 'devtools-protocol';
+import type {Protocol} from 'chromecraft-devtools-protocol';
 
 import {
   delay,

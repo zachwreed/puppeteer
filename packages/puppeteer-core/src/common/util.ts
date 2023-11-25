@@ -17,7 +17,7 @@
 import type FS from 'fs/promises';
 import type {Readable} from 'stream';
 
-import type {Protocol} from 'devtools-protocol';
+import type {Protocol} from 'chromecraft-devtools-protocol';
 
 import {
   map,

@@ -17,7 +17,7 @@
 import type {Readable} from 'stream';
 
 import type * as Bidi from 'chromium-bidi/lib/cjs/protocol/protocol.js';
-import type Protocol from 'devtools-protocol';
+import type Protocol from 'chromecraft-devtools-protocol';
 
 import type {Observable, ObservableInput} from '../../third_party/rxjs/rxjs.js';
 import {

@@ -16,7 +16,7 @@
 
 import type Path from 'path';
 
-import type {Protocol} from 'devtools-protocol';
+import type {Protocol} from 'chromecraft-devtools-protocol';
 
 import type {CDPSession} from '../api/CDPSession.js';
 import {ElementHandle, type AutofillData} from '../api/ElementHandle.js';

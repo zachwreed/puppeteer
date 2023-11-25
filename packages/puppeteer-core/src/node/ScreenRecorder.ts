@@ -19,7 +19,7 @@ import {spawn, spawnSync} from 'child_process';
 import {PassThrough} from 'stream';
 
 import debug from 'debug';
-import type Protocol from 'devtools-protocol';
+import type Protocol from 'chromecraft-devtools-protocol';
 
 import type {
   Observable,

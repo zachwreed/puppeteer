@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type {Protocol} from 'devtools-protocol';
+import type {Protocol} from 'chromecraft-devtools-protocol';
 
 import type {Browser} from '../api/Browser.js';
 import type {BrowserContext} from '../api/BrowserContext.js';

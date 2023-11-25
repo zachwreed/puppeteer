@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-export type {Protocol} from 'devtools-protocol';
+export type {Protocol} from 'chromecraft-devtools-protocol';
 
 export * from './api/api.js';
 export * from './cdp/cdp.js';
