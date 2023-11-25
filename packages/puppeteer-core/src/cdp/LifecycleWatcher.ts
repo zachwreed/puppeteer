@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type Protocol from 'chromecraft-devtools-protocol';
+import type Protocol from 'devtools-protocol';
 
 import {type Frame, FrameEvent} from '../api/Frame.js';
 import type {HTTPRequest} from '../api/HTTPRequest.js';

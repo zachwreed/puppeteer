@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type {Protocol} from 'chromecraft-devtools-protocol';
+import type {Protocol} from 'devtools-protocol';
 
 import type {TargetFilterCallback} from '../api/Browser.js';
 import {CDPSession, CDPSessionEvent} from '../api/CDPSession.js';

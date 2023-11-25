@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import type * as Bidi from 'chromium-bidi/lib/cjs/protocol/protocol.js';
-import type Protocol from 'chromecraft-devtools-protocol';
+import type Protocol from 'devtools-protocol';
 
 import type {Frame} from '../api/Frame.js';
 import {

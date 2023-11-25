@@ -1,4 +1,4 @@
-import type {ProtocolMapping} from 'chromecraft-devtools-protocol/types/protocol-mapping.js';
+import type {ProtocolMapping} from 'devtools-protocol/types/protocol-mapping.js';
 
 import type {Connection} from '../cdp/Connection.js';
 import {EventEmitter, type EventType} from '../common/EventEmitter.js';

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type {ProtocolMapping} from 'chromecraft-devtools-protocol/types/protocol-mapping.js';
+import type {ProtocolMapping} from 'devtools-protocol/types/protocol-mapping.js';
 
 import {
   type CDPEvents,

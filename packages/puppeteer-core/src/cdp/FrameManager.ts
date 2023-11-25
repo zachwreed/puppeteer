@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import type {Protocol} from 'chromecraft-devtools-protocol';
+import type {Protocol} from 'devtools-protocol';
 
 import {type CDPSession, CDPSessionEvent} from '../api/CDPSession.js';
 import {FrameEvent} from '../api/Frame.js';
