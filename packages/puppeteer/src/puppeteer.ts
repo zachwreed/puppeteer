@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-export type {Protocol} from 'test-puppeteer-core';
+export type {Protocol} from 'chromecraft-puppeteer-core';
 
-export * from 'test-puppeteer-core/internal/puppeteer-core.js';
+export * from 'chromecraft-puppeteer-core/internal/puppeteer-core.js';
 
-import {PuppeteerNode} from 'test-puppeteer-core/internal/node/PuppeteerNode.js';
+import {PuppeteerNode} from 'chromecraft-puppeteer-core/internal/node/PuppeteerNode.js';
 
 import {getConfiguration} from './getConfiguration.js';
 

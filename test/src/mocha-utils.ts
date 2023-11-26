@@ -18,7 +18,7 @@ import fs from 'fs';
 import path from 'path';
 
 import {TestServer} from '@pptr/testserver';
-import type {Protocol} from 'chromecraft-devtools-protocol';
+import type {Protocol} from 'devtools-protocol';
 import expect from 'expect';
 import type * as MochaBase from 'mocha';
 import puppeteer from 'puppeteer/lib/cjs/puppeteer/puppeteer.js';

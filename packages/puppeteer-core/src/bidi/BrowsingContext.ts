@@ -1,5 +1,5 @@
-import type ProtocolMapping from 'devtools-protocol/types/protocol-mapping.js';
 import type * as Bidi from 'chromium-bidi/lib/cjs/protocol/protocol.js';
+import type ProtocolMapping from 'devtools-protocol/types/protocol-mapping.js';
 
 import {CDPSession} from '../api/CDPSession.js';
 import type {Connection as CdpConnection} from '../cdp/Connection.js';

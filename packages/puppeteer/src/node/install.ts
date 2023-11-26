@@ -21,8 +21,8 @@ import {
   makeProgressCallback,
   detectBrowserPlatform,
 } from '@puppeteer/browsers';
-import type {Product} from 'test-puppeteer-core';
-import {PUPPETEER_REVISIONS} from 'test-puppeteer-core/internal/revisions.js';
+import type {Product} from 'chromecraft-puppeteer-core';
+import {PUPPETEER_REVISIONS} from 'chromecraft-puppeteer-core/internal/revisions.js';
 
 import {getConfiguration} from '../getConfiguration.js';
 
