@@ -1,7 +1,7 @@
 {
-  "name": "puppeteer",
-  "version": "21.5.2",
-  "description": "A high-level API to control headless Chrome over the DevTools Protocol",
+  "name": "chromecraft-puppeteer",
+  "version": "1.0.0",
+  "description": "ChromeCraft wrapper https://www.npmjs.com/package/puppeteer",
   "keywords": [
     "puppeteer",
     "chrome",
@@ -38,7 +38,6 @@
     "build:docs": "wireit",
     "build": "wireit",
     "clean": "../../tools/clean.js",
-    "postinstall": "node install.mjs",
     "prepack": "wireit"
   },
   "wireit": {
@@ -124,7 +123,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "cosmiconfig": "8.3.6",
-    "puppeteer-core": "21.5.2",
+    "chromecraft-puppeteer-core": "1.0.0",
     "@puppeteer/browsers": "1.8.0"
   },
   "devDependencies": {

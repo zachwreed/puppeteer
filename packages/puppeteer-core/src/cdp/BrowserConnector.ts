@@ -57,6 +57,10 @@ export async function _connectToCdpBrowser(
 
   const connection = await getCdpConnection(options);
 
+  if (options.tag) {
+    await connection.send('ChromeCraft.setTag', {tag: options.tag});
+  }
+
   const version = await connection.send('Browser.getVersion');
   const product = version.product.toLowerCase().includes('firefox')
     ? 'firefox'
@@ -96,9 +100,7 @@ export async function _connectToBiDiOverCdpBrowser(
   const connection = await getCdpConnection(options);
 
   if (options.tag) {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-expect-error
-    await connection.send('ChromeCraft.getVersion', [options.tag]);
+    await connection.send('ChromeCraft.setTag', {tag: options.tag});
   }
 
   const version = await connection.send('Browser.getVersion');
